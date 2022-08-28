@@ -1,0 +1,85 @@
+/* styling the parent container that is the header  */
+.header {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-h {
+
+    padding: 1.5rem 2rem 2rem;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+}
+
+.the-best-ad {
+
+    margin-top: 3rem;
+    background-color: #363d42;
+    border-radius: 5rem;
+    width: fit-content;
+    padding: 18px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.the-best-ad>div{
+
+    position: absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 75%;
+    left: 8px;
+    border-radius: 5rem;
+    z-index: 1;
+
+}
+
+.the-best-ad>span{
+
+    z-index: 2;
+
+}
+
+.header-text {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-overflow: inherit;
+}
+
+.header-text .stroke-text {
+
+    margin-right: 1.5rem;
+
+}
+
+/* targeting the third div in the header-text section  */
+.header-text>div:nth-of-type(3) {
+
+    font-size: 1rem;
+    text-transform: none;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 80%;
+
+}
+
+.right-h {
+
+    flex: 1;
+}
