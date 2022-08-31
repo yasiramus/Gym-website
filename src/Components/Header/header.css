@@ -79,7 +79,132 @@
 
 }
 
+.figures {
+
+    display: flex;
+    column-gap: 2rem;
+
+}
+
+/* targeting each div in the figures setion  */
+.figures>div {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* targeting the first span in the .figures div section */
+.figures>div>span:nth-of-type(1) {
+
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+/* targeting the second span in the .figures div section */
+.figures>div>span:nth-of-type(2) {
+
+    color: var(--gray);
+    text-transform: uppercase;
+    
+}
+
+/* header button  */
+.header-button {
+
+    display: flex;
+    column-gap: 1rem;
+    font-weight: normal;
+
+}
+
+/* targeting the first button in the header btn  */
+.header-button button:nth-of-type(1) {
+
+    color: #fff;
+    background-color: var(--orange);
+    width: 8rem;
+
+}
+
+/* targeting the second button in the header btn  */
+.header-button button:nth-of-type(2) {
+
+    color: #fff;
+    background-color:transparent;
+    width: 8rem;
+    border: 2px solid var(--orange);    
+}
+
 .right-h {
 
     flex: 1;
+    background-color: var(--orange);
+    position: relative;
+
+}
+
+.right-h > .btn {
+
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    color: #000;
+
+}
+
+.heart-rate {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    background-color: var(--darkGrey);
+    width: fit-content;
+    padding: 1rem;
+    align-items: flex-start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+
+}
+
+.heart-rate img {
+
+    width: 2rem;
+
+}
+
+/* targing the second child  */
+.heart-rate span:nth-of-type(1) {
+
+    color: var(--gray);
+
+}
+
+.heart-rate span:nth-of-type(2) {
+
+    color:#fff;
+    font-size:1.5rem;
+
+}
+
+.header-img {
+
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+
+}
+
+.header-img-back {
+
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+
 }
