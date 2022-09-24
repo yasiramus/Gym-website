@@ -140,12 +140,12 @@
 .right-h {
 
     flex: 1;
-    background-color: var(--orange);
     position: relative;
+    background-color: var(--orange);
 
 }
 
-.right-h > .btn {
+.right-h>.btn {
 
     position: absolute;
     right: 3rem;
@@ -154,6 +154,7 @@
 
 }
 
+/* heart-rate contains the heart img aand the text  */
 .heart-rate {
 
     display: flex;
@@ -161,7 +162,7 @@
     row-gap: 0.5rem;
     background-color: var(--darkGrey);
     width: fit-content;
-    padding: 1rem;
+    padding: 1rem 1.3rem;
     align-items: flex-start;
     border-radius: 5px;
     position: absolute;
@@ -170,19 +171,21 @@
 
 }
 
+/* heart rate img  */
 .heart-rate img {
 
-    width: 2rem;
+    width: 2.5rem;
 
 }
 
-/* targing the second child  */
+/* targing the first child that is the first span */
 .heart-rate span:nth-of-type(1) {
 
     color: var(--gray);
 
 }
 
+/* second  span  */
 .heart-rate span:nth-of-type(2) {
 
     color:#fff;
@@ -190,6 +193,9 @@
 
 }
 
+/* styling of the heart rate section ends here  */
+
+/* styling of the header image  */
 .header-img {
 
     position: absolute;
