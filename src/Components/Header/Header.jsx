@@ -3,11 +3,16 @@
 // importation of header css file 
 import "./header.css";
 
+// importation of calories css file 
+import "./calories.css";
+
 // importation of the sub header component 
 import SubHeader from "../SubHeader/SubHeader";
 
 // importation  of header images
 import HeaderImg from "../../assets/hero_image.png";
+
+// import workoutFemale from "../../assets/workout-female.png";
 
 import HeaderImgBack from "../../assets/hero_image_back.png";
 
@@ -67,14 +72,14 @@ const Header = () => {
 
                         <div>
 
-                            <span>+140</span>
+                            <span>+180</span>
                             <span>expert coaches</span>
 
                         </div>
 
                         <div>
 
-                            <span>+987</span>
+                            <span>+972</span>
                             <span>members joined</span>
 
                         </div>
@@ -94,7 +99,7 @@ const Header = () => {
 
                         <button className="btn">Get Started</button>
 
-                        <button className="btn">Learn More</button>
+                        <button className="btn">Know More</button>
 
                     </div>
                      {/* header button section ends here*/}
@@ -105,7 +110,7 @@ const Header = () => {
 
                 <div className="right-h">
 
-                    <button className="btn">Join Now</button>
+                    <button className="btn">Join Us Now</button>
 
                     {/* heart-rate start from here*/}
                     <div className="heart-rate">
@@ -114,7 +119,7 @@ const Header = () => {
 
                         <span>Heart Rate</span>
 
-                        <span>116 bps</span>
+                        <span>118 bpm</span>
 
                     </div>
                     {/* heart rate section ends here  */}
@@ -122,6 +127,8 @@ const Header = () => {
                     {/* header images  */}
                     <img src={HeaderImg} alt={HeaderImg} className="header-img"/>
 
+                    {/* <img src={workoutFemale} alt={HeaderImg} className="header-img"/> */}
+                    
                     <img src={HeaderImgBack} alt={HeaderImgBack} className="header-img-back"/>
 
                     {/* calories  */}
@@ -129,10 +136,14 @@ const Header = () => {
 
                         <img src={CaloriesImg} alt={CaloriesImg} />
 
-                        <span>Calories BurenOut</span>
+                        <div>
+                            
+                        <span>Calories Burn Out</span>
 
                         <span>250 Kcal</span>
-                        
+                            
+                       </div>
+
                     </div>
 
                 </div>

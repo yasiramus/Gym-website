@@ -1,6 +1,7 @@
 // the app component is the entry point of all components 
 // importatin of the header component 
-import Header from "./Components/Header/Header";
+
+import Home from "./Pages/Home";
 
 const App = () => {
 
@@ -8,7 +9,7 @@ const App = () => {
 
         <div className="App">
            
-            <Header/>
+            <Home/>
 
         </div>
 
