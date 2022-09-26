@@ -2,6 +2,8 @@ import Header from "../Components/Header/Header";
 
 import Programs from "../Components/Programs/Programs";
 
+import Reasons from "../Components/Reasons/Reasons";
+
 const Home = () => {
 
     return (
@@ -10,7 +12,9 @@ const Home = () => {
       
             <Header />
             
-            <Programs/>
+            <Programs />
+            
+            <Reasons/>
         </>
       
     )
