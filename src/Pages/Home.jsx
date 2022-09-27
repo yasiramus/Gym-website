@@ -4,6 +4,8 @@ import Programs from "../Components/Programs/Programs";
 
 import Reasons from "../Components/Reasons/Reasons";
 
+import Plans from "../Components/Plans/Plans";
+
 const Home = () => {
 
     return (
@@ -14,7 +16,9 @@ const Home = () => {
             
             <Programs />
             
-            <Reasons/>
+            <Reasons />
+            
+            <Plans/>
         </>
       
     )

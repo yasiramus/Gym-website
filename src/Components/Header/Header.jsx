@@ -115,7 +115,7 @@ const Header = () => {
                     {/* heart-rate start from here*/}
                     <div className="heart-rate">
 
-                        <img src={HeartImg} alt={HeartImg} />
+                        <img src={HeartImg} alt={HeartImg} loading="lazy" />
 
                         <span>Heart Rate</span>
 
@@ -125,16 +125,16 @@ const Header = () => {
                     {/* heart rate section ends here  */}
 
                     {/* header images  */}
-                    <img src={HeaderImg} alt={HeaderImg} className="header-img"/>
+                    <img src={HeaderImg} alt={HeaderImg} loading="lazy" className="header-img"/>
 
                     {/* <img src={workoutFemale} alt={HeaderImg} className="header-img"/> */}
                     
-                    <img src={HeaderImgBack} alt={HeaderImgBack} className="header-img-back"/>
+                    <img src={HeaderImgBack} alt={HeaderImgBack} loading="lazy" className="header-img-back"/>
 
                     {/* calories  */}
                     <div className="calories">
 
-                        <img src={CaloriesImg} alt={CaloriesImg} />
+                        <img src={CaloriesImg} alt={CaloriesImg} loading="lazy" />
 
                         <div>
                             
