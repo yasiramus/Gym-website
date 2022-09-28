@@ -1,0 +1,114 @@
+.plans-container {
+
+    margin: -4rem 0 0;
+    padding: 0 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+
+}
+
+/* styling the entire card container  */
+.plans-card {
+
+    display: flex;
+    column-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* individual cards  */
+.plan-data {
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--caloryCard);
+    color: #fff;
+    gap: 1rem;
+    padding: 1.5rem;
+    width: 15rem;
+
+}
+
+/* targeting the center card  which is the second card*/
+.plan-data:nth-child(2) {
+
+    background: var(--planCard);
+    transform: scale(1.1);
+
+}
+
+.plan-data:nth-child(2) svg {
+
+    fill: #fff;
+
+}
+
+.plan-data:nth-child(2) .btn {
+
+    color: var(--orange);
+
+}
+
+/* targeting the second element within each .plan-data card which is the plan name */
+.plan-data>:nth-child(2) {
+
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+/* targeting the third element within each .plan-data card which is the plan price */
+.plan-data>:nth-child(3) {
+
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+/* targeting the fifth element within each .plan-data card which is the view for more benefits*/
+.view-benefit {
+
+    font-size: .9rem;
+    display: flex;
+    column-gap: .8rem;
+    align-items: center;
+
+}
+
+.view-benefit img {
+
+    width: .9rem;
+
+}
+
+.plan-data svg {
+
+    width: 2rem;
+    fill: var(--orange);
+    height: 2rem;
+
+}
+
+.plan-features {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+}
+
+.feature-section {
+
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.feature-section img {
+
+    width: 1rem;
+    height: 1rem;
+
+}

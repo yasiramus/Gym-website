@@ -3,6 +3,7 @@ import "./program.css";
 // importation of programs data from the data folder 
 import { programsData } from "../../data/programsData";
 
+// importation of right arrow from the assest folder
 import rightArrow from "../../assets/rightArrow.png";
 
 const Programs = () => {
@@ -15,7 +16,9 @@ const Programs = () => {
       <div className="programs-header">
         
         <span className="stroke-text">Explore Our</span>
+
         <span>Programs</span>
+
         <span className="stroke-text">To Shape Your Body</span>
         
       </div>
@@ -39,7 +42,7 @@ const Programs = () => {
 
               <span>Start Now</span>
 
-              <img src={rightArrow} alt={rightArrow} />
+              <img src={rightArrow} alt={rightArrow} loading="lazy"/>
 
             </div>
             
