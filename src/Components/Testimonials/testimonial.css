@@ -1,0 +1,88 @@
+.testimonials {
+
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem 1rem;
+
+}
+
+.left-testimonial {
+
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.left-first-span {
+
+    color: var(--orange);
+    font-weight: bold;
+
+}
+
+.left-second-span, .left-last-span {
+
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+
+.testimonialDataReview {
+
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.testimonialData span {
+
+    color: var(--orange);
+
+}
+
+
+.right-testimonial {
+
+    flex: 1;
+    position: relative;
+    
+}
+
+.right-testimonial > :nth-child(1) {
+
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid orange;
+    right: 9rem;
+    top: 0.9rem;
+
+}
+
+.right-testimonial > :nth-child(2) {
+
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    background: var(--planCard);
+    right: 6rem;
+    top: 4.5rem;
+
+}
+
+/* styling the first image within the right section  */
+.right-testimonial > img {
+
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+
+}
