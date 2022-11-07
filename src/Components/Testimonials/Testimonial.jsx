@@ -15,8 +15,8 @@ const Testimonial = () => {
     const [isSelected, setIsSelected] = useState(0)
     
     // calculate length of reviews
-    // const calculateReviewLength = testimonialsData.length;
-    // console.log(calculateReviewLength,'calculateReviewLength');
+    const calculateTestimonialLength = testimonialsData.length;
+    console.log(calculateTestimonialLength,'calculateReviewLength');
 
     return (
       
@@ -64,9 +64,9 @@ const Testimonial = () => {
                     {/* arrow images  */}
                     <div className="arrow-pagination">
 
-                        <img src={leftArrow} alt={leftArrow} />
+                        <img onClick={() => (isSelected === 0) ? setIsSelected(calculateTestimonialLength -1): setIsSelected( prev => prev - 1) } src={leftArrow} alt={leftArrow} />
                         
-                        <img src={rightArrow} alt={rightArrow} />
+                        <img onClick={() => (isSelected === calculateTestimonialLength -1) ? setIsSelected(0): setIsSelected( prev => prev + 1) } src={rightArrow} alt={rightArrow} />
 
                     </div>
                     

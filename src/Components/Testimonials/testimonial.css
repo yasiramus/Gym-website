@@ -2,7 +2,8 @@
 
     display: flex;
     gap: 1rem;
-    padding: 0 2rem 1rem;
+    padding: 0 2rem;
+    /* margin-bottom: 4rem; */
 
 }
 
@@ -53,6 +54,7 @@
     
 }
 
+/* empty divs styling  */
 .right-testimonial > :nth-child(1) {
 
     position: absolute;
@@ -70,7 +72,7 @@
     width: 17rem;
     height: 19rem;
     background: var(--planCard);
-    right: 6rem;
+    right: 7rem;
     top: 4.5rem;
 
 }
@@ -84,5 +86,24 @@
     object-fit: cover;
     right: 8rem;
     top: 2rem;
+
+}
+
+/* arrow container*/
+.arrow-pagination {
+
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+
+}
+
+/* arrow image  */
+.arrow-pagination img {
+
+    width: 1.5rem;
 
 }
