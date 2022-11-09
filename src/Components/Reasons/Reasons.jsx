@@ -2,10 +2,10 @@
 import "./reasons.css";
 
 //importation of male workout images from the assest folder which contain images 
-import image1 from "../../assets/image1.png";
-import image2 from "../../assets/image2.png";
-import image3 from "../../assets/image3.png";
-import image4 from "../../assets/image4.png";
+import image1 from "../../assets/fitness.jpg";
+import image2 from "../../assets/femaleWorkout1.webp";
+import image3 from "../../assets/femaleWorkout4.webp";
+import image4 from "../../assets/femaleFitness.jpg";
 
 // importation of colored tick from the assest folder 
 import tick from "../../assets/tick.png";

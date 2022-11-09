@@ -10,7 +10,8 @@ import "./calories.css";
 import SubHeader from "../SubHeader/SubHeader";
 
 // importation  of header images
-import HeaderImg from "../../assets/hero_image.png";
+// import HeaderImg from "../../assets/hero_image.png";
+import HeaderImg from "../../assets/removebg-preview.png";
 
 // import workoutFemale from "../../assets/workout-female.png";
 
@@ -26,6 +27,8 @@ const Header = () => {
       
         <>
             <div className="header">
+
+                <div className="blur header-blur"></div>
                 {/* dividing the header section into 2 parts that is the left and right side  */}
                 {/* the left side section start from here  */}
                 <div className="left-h">

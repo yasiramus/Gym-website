@@ -17,6 +17,9 @@ const Plans = () => {
       
             <div className="plans-container">
 
+                <div className="blur plansSection-blur1"></div>
+                <div className="blur plansSection-blur2"></div>
+
                 {/* programs header section*/}
                 <div className="programs-header">
 
