@@ -16,7 +16,6 @@ const Testimonial = () => {
     
     // calculate length of reviews
     const calculateTestimonialLength = testimonialsData.length;
-    console.log(calculateTestimonialLength,'calculateReviewLength');
 
     return (
       

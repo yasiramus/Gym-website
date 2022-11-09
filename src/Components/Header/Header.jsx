@@ -26,6 +26,8 @@ const Header = () => {
       
         <>
             <div className="header">
+
+                <div className="blur header-blur"></div>
                 {/* dividing the header section into 2 parts that is the left and right side  */}
                 {/* the left side section start from here  */}
                 <div className="left-h">
