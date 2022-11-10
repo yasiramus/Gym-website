@@ -1,20 +1,23 @@
 // testimonial component 
+// useState importation
 import { useState } from "react";
 
+// importation of testimonialsData from the data folder
 import { testimonialsData } from "../../data/testimonialsData";
 
+// testimonial css importation
 import "./testimonial.css";
 
-// importation of left arrow image from the assets folder 
+//importation of left arrow image from the assets folder 
 import rightArrow from "../../assets/rightArrow.png";
 import leftArrow from "../../assets/leftArrow.png";
 
-
 const Testimonial = () => {
 
+    // get the first object in the testimonial array data 
     const [isSelected, setIsSelected] = useState(0)
     
-    // calculate length of reviews
+    // get length of data available
     const calculateTestimonialLength = testimonialsData.length;
 
     return (
@@ -32,14 +35,14 @@ const Testimonial = () => {
                     
                     <span className="left-last-span">say about us</span>
 
-                    {/* review section  */}
+                    {/* review section will display the first data*/}
                     <span className="testimonialDataReview">
 
                         {testimonialsData[isSelected].review}
 
                     </span>
 
-                    {/* name and status section  */}
+                    {/* name and status section will display the first data */}
                     <span className="testimonialData">
 
                         <span>{testimonialsData[isSelected].name} </span>
@@ -58,6 +61,7 @@ const Testimonial = () => {
                     <div></div>
                     <div></div>
 
+                        {/* display the first image  */}
                     <img src={testimonialsData[isSelected].image} alt={testimonialsData[isSelected].image} />
 
                     {/* arrow images  */}

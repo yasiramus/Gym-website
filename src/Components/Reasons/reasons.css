@@ -31,7 +31,8 @@
 
 .left-r>:nth-child(2) {
 
-    width: auto;
+    /* width: auto; */
+    width: 25rem;
     height: 16rem;
     grid-column: 2/4;
 
@@ -42,6 +43,7 @@
     width: 14rem;
     grid-column: 2/3;
     grid-row: 2;
+    height: 11rem
 
 }
 

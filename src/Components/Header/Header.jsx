@@ -10,7 +10,8 @@ import "./calories.css";
 import SubHeader from "../SubHeader/SubHeader";
 
 // importation  of header images
-import HeaderImg from "../../assets/hero_image.png";
+// import HeaderImg from "../../assets/hero_image.png";
+import HeaderImg from "../../assets/removebg-preview.png";
 
 // import workoutFemale from "../../assets/workout-female.png";
 

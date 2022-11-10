@@ -1,15 +1,18 @@
+/* footer main container styling  */
 footer {
 
     position: relative;
 
 }
 
+/* hr element styling  */
 footer hr {
 
     border: 1px solid var(--lightgray);
 
 }
 
+/* footer images container styling  */
 .footer-images {
 
     padding: 1rem 2rem;
@@ -22,6 +25,7 @@ footer hr {
     
 }
 
+/* social media images container styling */
 .socialMedia {
 
     display: flex;
@@ -29,6 +33,7 @@ footer hr {
 
 }
 
+/* social media images  */
 .socialMedia img {
 
     width: 2rem;
@@ -37,12 +42,14 @@ footer hr {
 
 }
 
+/* logo image  */
 .logo-footer img {
 
     width: 10rem;
 
 }
 
+/* first empty div styling */
 .footer-blur1 {
 
     bottom: 0;
@@ -54,6 +61,7 @@ footer hr {
 
 }
 
+/* second empty div styling */
 .footer-blur2 {
 
     bottom: 0;
