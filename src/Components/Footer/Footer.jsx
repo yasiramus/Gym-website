@@ -26,18 +26,18 @@ const Footer = () => {
         {/* social media images*/}
         <div className="socialMedia">
         
-          <img src={Github} alt={Github} />
+          <img src={Github} alt={Github} loading="lazy"/>
 
-          <img src={Instagram} alt={Instagram} />
+          <img src={Instagram} alt={Instagram} loading="lazy"/>
 
-          <img src={Linkedin} alt={Linkedin} />
-          
+          <img src={Linkedin} alt={Linkedin} loading="lazy" />
+         
         </div> 
 
         {/* logo images*/}
         <div className="logo-footer">
 
-          <img src={Logo} alt={Logo} />
+          <img src={Logo} alt={Logo} loading="lazy" />
 
         </div>
         

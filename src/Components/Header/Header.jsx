@@ -1,5 +1,8 @@
 // the header component
 
+//importation of motion for activation of animation 
+import {motion } from "framer-motion"
+
 // importation of header css file 
 import "./header.css";
 
@@ -10,10 +13,7 @@ import "./calories.css";
 import SubHeader from "../SubHeader/SubHeader";
 
 // importation  of header images
-// import HeaderImg from "../../assets/hero_image.png";
 import HeaderImg from "../../assets/removebg-preview.png";
-
-// import workoutFemale from "../../assets/workout-female.png";
 
 import HeaderImgBack from "../../assets/hero_image_back.png";
 
@@ -23,6 +23,9 @@ import CaloriesImg from "../../assets/calories.png";
 
 const Header = () => {
 
+    //define transition type and duration 
+    const transition = { type: "spring", duration: 3 }
+    
     return (
       
         <>
@@ -40,7 +43,13 @@ const Header = () => {
                     <div className="the-best-ad">
 
                         {/* this the div is for the orange oval color  */}
-                        <div></div>
+                        <motion.div
+
+                            initial={{ left: "238px" }}
+                            whileInView={{ left: "8px" }}
+                            transition={{ ...transition, type: "tmeen" }}
+                            
+                        ></motion.div>
 
                         <span>the best fitness club in the town</span>
 
@@ -116,7 +125,12 @@ const Header = () => {
                     <button className="btn">Join Us Now</button>
 
                     {/* heart-rate start from here*/}
-                    <div className="heart-rate">
+                    <motion.div
+                        initial={{right:"-1rem"}}
+                        whileInView={{ right: "5rem" }}
+                        transition={{transition}}
+
+                    className="heart-rate">
 
                         <img src={HeartImg} alt={HeartImg} loading="lazy" />
 
@@ -124,13 +138,12 @@ const Header = () => {
 
                         <span>118 bpm</span>
 
-                    </div>
+                    </motion.div>
+                    
                     {/* heart rate section ends here  */}
 
                     {/* header images  */}
                     <img src={HeaderImg} alt={HeaderImg} loading="lazy" className="header-img"/>
-
-                    {/* <img src={workoutFemale} alt={HeaderImg} className="header-img"/> */}
                     
                     <img src={HeaderImgBack} alt={HeaderImgBack} loading="lazy" className="header-img-back"/>
 

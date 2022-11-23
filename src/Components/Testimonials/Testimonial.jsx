@@ -62,14 +62,14 @@ const Testimonial = () => {
                     <div></div>
 
                         {/* display the first image  */}
-                    <img src={testimonialsData[isSelected].image} alt={testimonialsData[isSelected].image} />
+                    <img src={testimonialsData[isSelected].image} alt={testimonialsData[isSelected].image} loading="lazy"/>
 
                     {/* arrow images  */}
                     <div className="arrow-pagination">
 
-                        <img onClick={() => (isSelected === 0) ? setIsSelected(calculateTestimonialLength -1): setIsSelected( prev => prev - 1) } src={leftArrow} alt={leftArrow} />
+                        <img onClick={() => (isSelected === 0) ? setIsSelected(calculateTestimonialLength -1): setIsSelected( prev => prev - 1) } src={leftArrow} alt={leftArrow} loading="lazy"/>
                         
-                        <img onClick={() => (isSelected === calculateTestimonialLength -1) ? setIsSelected(0): setIsSelected( prev => prev + 1) } src={rightArrow} alt={rightArrow} />
+                        <img onClick={() => (isSelected === calculateTestimonialLength -1) ? setIsSelected(0): setIsSelected( prev => prev + 1) } src={rightArrow} alt={rightArrow} loading="lazy"/>
 
                     </div>
                     
