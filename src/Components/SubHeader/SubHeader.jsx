@@ -17,11 +17,11 @@ const SubHeader = () => {
                 
                 {/* nav list  */}
                 <ul className="nav-list">
-                    <li>Home</li>
-                    <li>Programs</li>
-                    <li>Why Us</li>
-                    <li>Plans</li>
-                    <li>Testimonial</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#reasons">Why Us</a></li>
+                    <li><a href="#plans" >Plans</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
                 </ul>
 
             </div>

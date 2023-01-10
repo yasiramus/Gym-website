@@ -15,7 +15,7 @@ const Plans = () => {
 
         <>
       
-            <div className="plans-container">
+            <div className="plans-container" id="plans">
 
                 <div className="blur plansSection-blur1"></div>
                 <div className="blur plansSection-blur2"></div>

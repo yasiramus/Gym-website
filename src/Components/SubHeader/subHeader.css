@@ -21,7 +21,13 @@
 
 }
 
-.nav-list>li:hover {
+.nav-list a {
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-list li>a:hover {
     cursor: pointer;
     color: var(--orange);
 

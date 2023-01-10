@@ -24,7 +24,7 @@ const Testimonial = () => {
       
         <>
             {/* testimonial main container  */}
-            <div className="testimonials">
+            <div className="testimonials" id="testimonial">
 
                 {/* left-testimonial start */}
                 <div className="left-testimonial">
