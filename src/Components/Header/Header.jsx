@@ -26,6 +26,8 @@ const Header = () => {
     //define transition type and duration 
     const transition = { type: "spring", duration: 3 }
     
+    const mobile = window.innerWidth <= 768 ? true:false;
+
     return (
       
         <>
@@ -45,7 +47,7 @@ const Header = () => {
                         {/* this the div is for the orange oval color  */}
                         <motion.div
 
-                            initial={{ left: "238px" }}
+                            initial={{ left: mobile ?"185px": "238px" }}
                             whileInView={{ left: "8px" }}
                             transition={{ ...transition, type: "tmeen" }}
                             

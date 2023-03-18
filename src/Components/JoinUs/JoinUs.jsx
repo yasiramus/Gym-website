@@ -11,7 +11,7 @@ const JoinUs = () => {
 
   // receive email in your gmail account
   const form = useRef();
-
+  
   // send mail 
   const sendEmail = (e) => {
 
